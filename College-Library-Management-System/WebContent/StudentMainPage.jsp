@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student View</title>
+	<style>
+	body {
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+h1 {
+	font-size: 36px;
+	color: #333;
+	margin-bottom: 30px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+li {
+	margin: 20px;
+}
+
+a {
+	display: block;
+	padding: 20px;
+	background-color: #2ecc71;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+
+a:hover {
+	background-color: #27ae60;
+}
+	
+	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Student Desktop</h1>
+		<ul>
+			<li><a href="../returnbook.jsp">RETURN BOOK</a></li>
+			<li><a href="../viewallbooks.jsp">VIEW ALL BOOKS</a></li>
+			<li><a href="../searchbook.jsp">SEARCH AND GET BOOK</a></li>
+		</ul>
+	</div>
+</body>
+</html>
